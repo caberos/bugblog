@@ -7,6 +7,7 @@ import QA from './pages/qa/qa';
 import ProjectDev from './pages/dev/project_dev';
 import BackFront from './pages/dev/backfrond';
 import ApiPage from './pages/dev/api_page';
+import DevVsQaPage from './pages/articles/devvsqa_page';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/blog/rol-qa" element={<QA />} />
         <Route path="/blog/proyecto-dev" element={<ProjectDev />} />
         <Route path="/blog/back-front" element={<BackFront />} />
+        <Route path="/blog/dev-vs-qa" element={<DevVsQaPage />} />
         <Route path="/blog/api" element={<ApiPage />} />
         
       </Routes>

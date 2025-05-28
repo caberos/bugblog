@@ -11,8 +11,8 @@ export default function DevsPage() {
         </p>
       </section>
 
-      {/* Rutas de aprendizaje */}
-      <section className="mb-5">
+      <div className="row">
+      <section className="col-md-6 mb-3 mb-md-0">
         <h2>Rutas recomendadas</h2>
         <ul>
           <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React</li>
@@ -20,7 +20,16 @@ export default function DevsPage() {
           <li><strong>Fullstack:</strong> Combinación de ambos + DevOps básico</li>
         </ul>
       </section>
-
+      <section className="col-md-6 mb-3 mb-md-0">
+        <h2>Tecnologías clave</h2>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>React, Vue, Angular</li>
+          <li>Git y GitHub</li>
+          <li>Node.js, Express, Spring Boot, Python</li>
+        </ul>
+      </section>
+    </div>
       {/* Artículos destacados */}
       <section className="mb-5">
         <h2>Lecturas recomendadas</h2>
@@ -54,20 +63,9 @@ export default function DevsPage() {
           ))}
         </div>
       </section>
-
-      {/* Tecnologías populares */}
-      <section className="mb-5">
-        <h2>Tecnologías clave</h2>
-        <ul>
-          <li>HTML, CSS, JavaScript</li>
-          <li>React, Vue, Angular</li>
-          <li>Git y GitHub</li>
-          <li>Node.js, Express, Spring Boot, Python</li>
-        </ul>
-      </section>
-
-      {/* Herramientas esenciales */}
-      <section className="mb-5">
+      
+      <div className="row">
+      <section className="col-md-6 mb-3 mb-md-0">
         <h2>Herramientas recomendadas</h2>
         <ul>
           <li><a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">VS Code</a> – Editor de código favorito de los devs</li>
@@ -77,7 +75,7 @@ export default function DevsPage() {
       </section>
 
       {/* Ejercicios y proyectos */}
-      <section className="mb-5">
+      <section className="col-md-6 mb-3 mb-md-0">
         <h2>Proyectos para practicar</h2>
         <ul>
           <li>To-do list con React</li>
@@ -85,6 +83,7 @@ export default function DevsPage() {
           <li>Portafolio web personal</li>
         </ul>
       </section>
+      </div>
 
       {/* CTA */}
       <section className="text-center my-5">

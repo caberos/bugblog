@@ -63,8 +63,8 @@ export default function QA() {
         </div>
       </section>
 
-      {/* Herramientas */}
-      <section className="mb-5">
+      <div className="row">
+      <section className="col-md-6 mb-3 mb-md-0">
         <h2>Herramientas esenciales</h2>
         <ul>
           <li>Postman – Para pruebas de API</li>
@@ -74,8 +74,7 @@ export default function QA() {
         </ul>
       </section>
 
-      {/* Proyectos prácticos */}
-      <section className="mb-5">
+      <section className="col-md-6 mb-3 mb-md-0">
         <h2>Proyectos para practicar</h2>
         <ul>
           <li>Prueba una API pública y reporta errores simulados</li>
@@ -83,6 +82,7 @@ export default function QA() {
           <li>Simula pruebas funcionales en una web simple</li>
         </ul>
       </section>
+      </div>
 
       {/* CTA final */}
       <section className="text-center my-5">
