@@ -8,6 +8,10 @@ import ProjectDev from './pages/dev/project_dev';
 import BackFront from './pages/dev/backfrond';
 import ApiPage from './pages/dev/api_page';
 import DevVsQaPage from './pages/articles/devvsqa_page';
+import TaskQA from './pages/qa/task_qa';
+import MainTools from './pages/qa/main_tools';
+import BeginQA from './pages/qa/begin_qa';
+import QAModern from './pages/articles/qa_modern';
 
 
 function App() {
@@ -21,6 +25,10 @@ function App() {
         <Route path="/blog/proyecto-dev" element={<ProjectDev />} />
         <Route path="/blog/back-front" element={<BackFront />} />
         <Route path="/blog/dev-vs-qa" element={<DevVsQaPage />} />
+        <Route path="/blog/que-hace-un-qa" element={<TaskQA />} />
+        <Route path="/blog/herramientas-testing" element={<MainTools />} />
+        <Route path="/blog/empezar-qa" element={<BeginQA />} />
+        <Route path="/blog/herramientas-qa" element={<QAModern />} />
         <Route path="/blog/api" element={<ApiPage />} />
         
       </Routes>
