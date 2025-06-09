@@ -113,9 +113,7 @@ return (
 
         <footer className="text-center mt-5 pt-5 border-top">
             <p>&copy; {new Date().getFullYear()} BugBlog. Todos los derechos reservados.</p>
-            <small>
-                Hecho con React y Bootstrap. <a href="/aviso-legal">Aviso legal</a>
-            </small>
+            
         </footer>
     </div>
 );
