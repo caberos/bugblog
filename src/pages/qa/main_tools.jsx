@@ -15,6 +15,10 @@ export default function MainTools() {
         </p>
       </section>
 
+      <div>
+              <AdBanner />
+            </div>
+
       <section className="mb-5">
         <h2>1. Postman</h2>
         <p>
@@ -41,6 +45,7 @@ export default function MainTools() {
         <a href="https://playwright.dev/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary mb-4">Aprender Playwright</a>
       </section>
 
+
       <section className="bg-light p-4 rounded">
         <h3>🔧 Consejos para elegir tu primera herramienta</h3>
         <ul>
@@ -49,6 +54,10 @@ export default function MainTools() {
           <li>No intentes aprender todas a la vez. Profundiza en una antes de saltar a otra.</li>
         </ul>
       </section>
+
+      <div className="mt-5">
+              <AdVertical />
+              </div>
 
       <footer className="text-center mt-5 pt-5 border-top">
         <p>&copy; {new Date().getFullYear()} BugBlog. Todos los derechos reservados.</p>

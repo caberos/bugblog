@@ -63,6 +63,10 @@ export default function DevsPage() {
           ))}
         </div>
       </section>
+
+      <div>
+              <AdBanner />
+            </div>
       
       <div className="row">
       <section className="col-md-6 mb-3 mb-md-0">
@@ -91,6 +95,10 @@ export default function DevsPage() {
         <p>Revisa nuestras guías paso a paso para comenzar a programar como desarrollador hoy mismo.</p>
         <a href="/blog/proyecto-dev" className="btn btn-primary">Comenzar ahora</a>
       </section>
+
+      <div className="mt-5">
+              <AdVertical />
+              </div>
 
       <footer className="text-center mt-5 pt-5 border-top">
         <p>&copy; {new Date().getFullYear()} BugBlog. Todos los derechos reservados.</p>

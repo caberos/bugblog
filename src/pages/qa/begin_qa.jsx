@@ -50,6 +50,10 @@ export default function BeginQA() {
         </p>
       </section>
 
+      <div>
+              <AdBanner />
+            </div>
+
       <section className="mb-4">
         <h2>🔗 Recursos gratuitos para comenzar</h2>
         <ul>
@@ -58,6 +62,9 @@ export default function BeginQA() {
           <li><a href="https://testautomationu.applitools.com/" target="_blank" rel="noopener noreferrer">Test Automation University</a></li>
         </ul>
       </section>
+      <div className="mt-5">
+              <AdVertical />
+              </div>
 
       <footer className="text-center mt-5 pt-5 border-top">
         <p>&copy; {new Date().getFullYear()} BugBlog. Todos los derechos reservados.</p>

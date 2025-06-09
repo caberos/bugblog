@@ -105,6 +105,10 @@ export default function ProyectoDev() {
           <li>Publicar tu app en GitHub Pages, Netlify o Vercel</li>
         </ul>
       </section>
+
+      <div className="mt-5">
+              <AdVertical />
+              </div>
     </div>
   );
 }

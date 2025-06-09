@@ -78,6 +78,9 @@ export default function DevVsQaPage() {
           </div>
         </div>
       </section>
+      <div>
+              <AdBanner />
+            </div>
 
       <section className="text-center my-5">
         <h2 className="mb-3">¿Cuál es mejor para ti?</h2>
@@ -93,6 +96,10 @@ export default function DevVsQaPage() {
           </a>
         </div>
       </section>
+
+      <div className="mt-5">
+              <AdVertical />
+              </div>
 
       <footer className="text-center mt-5 pt-5 border-top">
         <p>

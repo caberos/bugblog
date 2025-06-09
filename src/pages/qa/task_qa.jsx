@@ -1,4 +1,6 @@
 import React from "react";
+import AdBanner from "../ads/ad_banner.jsx";
+import AdVertical from "../ads/ad_vertical";
 
 export default function TaskQA() {
   return (
@@ -36,6 +38,9 @@ export default function TaskQA() {
           <li><strong>TestRail</strong> – para gestionar planes y casos de prueba</li>
         </ul>
       </section>
+      <div>
+        <AdBanner />
+      </div>
 
       <section className="text-center mt-5">
         <h2>¿Te interesa ser QA?</h2>
@@ -44,7 +49,9 @@ export default function TaskQA() {
           Leer más sobre el rol de QA
         </a>
       </section>
-
+      <div className="mt-5">
+        <AdVertical />
+        </div>
       <footer className="text-center mt-5 pt-5 border-top">
         <p>&copy; {new Date().getFullYear()} BugBlog. Todos los derechos reservados.</p>
       </footer>

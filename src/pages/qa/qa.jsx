@@ -1,4 +1,6 @@
 import React from "react";
+import AdBanner from "../ads/ad_banner.jsx";
+import AdVertical from "../ads/ad_vertical.jsx";
 
 export default function QA() {
   return (
@@ -62,6 +64,9 @@ export default function QA() {
           ))}
         </div>
       </section>
+      <div>
+        <AdBanner />
+      </div>
 
       <div className="row">
       <section className="col-md-6 mb-3 mb-md-0">
@@ -89,6 +94,9 @@ export default function QA() {
         <h2>¿Listo para comenzar?</h2>
         <a href="/blog/empezar-qa" className="btn btn-warning btn-lg mt-3">Empezar ahora</a>
       </section>
+      <div>
+        <AdVertical />
+      </div>
 
       <footer className="text-center mt-5 pt-5 border-top">
         <p>&copy; {new Date().getFullYear()} BugBlog. Todos los derechos reservados.</p>

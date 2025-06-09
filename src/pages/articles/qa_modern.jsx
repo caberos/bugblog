@@ -50,6 +50,10 @@ export default function QAModern() {
         </ul>
       </section>
 
+      <div>
+              <AdBanner />
+            </div>
+
       <section className="mb-5">
         <h2>📘 Recursos recomendados</h2>
         <ul>
@@ -64,6 +68,9 @@ export default function QAModern() {
           </li>
         </ul>
       </section>
+      <div className="mt-5">
+              <AdVertical />
+              </div>
 
       <footer className="text-center mt-5 pt-5 border-top">
         <p>&copy; {new Date().getFullYear()} BugBlog. Todos los derechos reservados.</p>

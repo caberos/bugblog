@@ -75,6 +75,10 @@ export default function ApiPage() {
         </a>
       </section>
 
+      <div>
+              <AdBanner />
+            </div>
+
       <section className="mt-5">
         <h3>🔧 Recursos recomendados</h3>
         <ul>
@@ -108,14 +112,16 @@ export default function ApiPage() {
         </ul>
       </section>
 
+      <div className="mt-5">
+              <AdVertical />
+              </div>
+
       <footer className="text-center mt-5 pt-5 border-top">
         <p>
           &copy; {new Date().getFullYear()} BugBlog. Todos los derechos
           reservados.
         </p>
-        <small>
-          Hecho con React y Bootstrap. <a href="/aviso-legal">Aviso legal</a>
-        </small>
+       
       </footer>
     </div>
   );

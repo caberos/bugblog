@@ -36,6 +36,10 @@ export default function BackFront() {
         </div>
       </section>
 
+      <div>
+              <AdBanner />
+            </div>
+
       <section className="my-5">
         <h2 className="mb-3">¿Cuál elegir primero?</h2>
         <p>
@@ -57,11 +61,13 @@ export default function BackFront() {
         </ul>
       </section>
 
+      <div className="mt-5">
+              <AdVertical />
+              </div>
+
       <footer className="text-center mt-5 pt-5 border-top">
         <p>&copy; {new Date().getFullYear()} BugBlog. Todos los derechos reservados.</p>
-        <small>
-          Hecho con React y Bootstrap. <a href="/aviso-legal">Aviso legal</a>
-        </small>
+       
       </footer>
     </div>
   );
