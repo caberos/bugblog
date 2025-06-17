@@ -12,11 +12,14 @@ import TaskQA from './pages/qa/task_qa';
 import MainTools from './pages/qa/main_tools';
 import BeginQA from './pages/qa/begin_qa';
 import QAModern from './pages/articles/qa_modern';
+import './App.css';
+import Navbar from './pages/components/navbar';
 
 
 function App() {
   return (
     <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />

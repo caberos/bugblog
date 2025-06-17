@@ -1,4 +1,6 @@
 import React from "react";
+import AdBanner from "../ads/ad_banner.jsx";
+import AdVertical from "../ads/ad_vertical.jsx";
 
 export default function DevVsQaPage() {
   return (
