@@ -19,16 +19,13 @@ return (
         <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0" style={{ gap: "2.5 rem", display: "flex" }}>
                 <li className="nav-item" style={{ fontSize: "1.5rem" }}>
-                    <Link className="nav-link" to="/dev">Dev</Link>
+                    <Link className="nav-link" to="/blog/rol-dev">Dev</Link>
                 </li>
                 <li className="nav-item" style={{ fontSize: "1.5rem" }}>
-                    <Link className="nav-link" to="/qa">QA</Link>
+                    <Link className="nav-link" to="/blog/rol-qa">QA</Link>
                 </li>
                 <li className="nav-item" style={{ fontSize: "1.5rem" }}>
                     <Link className="nav-link" to="/blog">Blog</Link>
-                </li>
-                <li className="nav-item" style={{ fontSize: "1.5rem" }}>
-                    <Link className="nav-link" to="/about">About</Link>
                 </li>
             </ul>
         </div>
